@@ -1,0 +1,98 @@
+
+.menu-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+.item-left ul li{
+    display: inline-block;
+    padding-left: 20px;   
+}
+.item-left{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.item-right ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.item-right{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.logo{
+    text-align: center;
+}
+
+.banner{
+    transition: transform .2s;
+}
+.banner:hover{
+    transform: scale(1.1); 
+}
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+     
+}
+.item-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.item-img-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+.text-left{
+    padding-left: 70px;
+}
+.box-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    margin-left: 100px;
+}
+.item-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    background-color: lightblue;
+    height: 300px;
+    padding-left: 70px;
+}
+.title-mid button:hover{
+    background-color: #A6A4A5;
+    color: #fff;
+}
+.text-left button:hover{
+    background-color: #A6A4A5;
+    color: #fff;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.hv button{
+    border-radius: 15px 15px 15px 15px;
+    
+}
+.hv button:hover{
+    background-color: blue;
+    color: #fff;
+}
+.box{
+    border: 1px solid black;
+}
